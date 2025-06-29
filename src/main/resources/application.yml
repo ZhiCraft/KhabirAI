@@ -1,0 +1,9 @@
+spring:
+  ai:
+    azure:
+      openai:
+        api-key: <your-azure-api-key>
+        endpoint: <your-azure-endpoint-url>
+        chat:
+          options:
+            deployment-name: text-embedding-3-large
